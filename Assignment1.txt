@@ -1,0 +1,13 @@
+//Write a program that takes two integers as input from the user
+#include<iostream>
+using namespace std;
+int main(){
+   int a,b,sum;
+   cout<<"enter the value of a="<<endl;
+   cin>>a;
+   cout<<"enetr the value of b="<<endl;
+   cin>>b;
+   sum=a+b;
+   cout<<"\n The sum of the numbers is:"<<sum<<endl;
+   return 0;
+}
